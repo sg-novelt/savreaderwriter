@@ -5,7 +5,7 @@ from ctypes import *
 import os
 import time
 import locale
-from collections import Iterable
+from collections.abc import Iterable
 
 try:
     pandasOK = True
